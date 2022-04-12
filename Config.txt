@@ -1,0 +1,34 @@
+Mandatory - Hashing algorithm to use (SHA-256, SHA-1, MD5):
+MD5
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Path to password list to use (or just put file name if in the same directory as HashCrack):
+C:\Dariush\Coding\Password lists\rockyou.txt
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+password list encoding (utf-8 if left blank):
+iso-8859-15
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Set a character set to cycle (leave blank to ask when the script is run):
+efghijklmnopqrstuvwxabcdyz9876543102
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Here are some good ones:
+
+    -Every ASCII character (97)
+    abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ9876543102! "#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+
+    -Every letter (52)
+    abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+    -Lower case letters and numbers (36)
+    efghijklmnopqrstuvwxabcdyz9876543102
+
+    -Numbers (10)
+    9876543102
+
+Common encoding types:
+
+    -iso-8859-15 (rockme.txt)
+    -utf-8
